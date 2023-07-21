@@ -1,0 +1,11 @@
+.elements__heart {
+    width: 22px;
+    height: 19px;
+}
+
+.elements__heart:hover {
+    opacity: 0.5;
+} 
+.elements__heart:active {
+    color: #000;
+}
