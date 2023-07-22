@@ -1,0 +1,9 @@
+.profile__edit {
+    /*width: 345px;
+    height: 73px;*/
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 18px;
+}

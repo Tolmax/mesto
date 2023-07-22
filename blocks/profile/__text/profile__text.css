@@ -1,0 +1,10 @@
+.profile__text {
+    width: 345px; /*336px*/
+    height: 73px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}

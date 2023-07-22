@@ -16,7 +16,10 @@
 
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
-@import url(../blocks/profile/__block/profile__block.css);
-@import url(../blocks/profile/__job-title/profile__job-title.css);
+@import url(../blocks/profile/__text/profile__text.css);
+@import url(../blocks/profile/__edit/profile__edit.css);
 @import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__editbtn/profile__editbtn.css);
+@import url(../blocks/profile/__job-title/profile__job-title.css);
+@import url(../blocks/profile/__flexbtn/profile__flexbtn.css);
 @import url(../blocks/profile/__btn/profile__btn.css);

@@ -1,9 +1,8 @@
- /** body, 
+ * body, 
 section,
-table,
 footer,
-infor,
 div,
+button,
 p,
 h1,
 h2,
@@ -11,7 +10,7 @@ h4,
 a,
 img {
   border: 1px solid red;
-}*/
+}
 
 .page {
     font-family: 'Inter', 'Arial', sans-serif;
