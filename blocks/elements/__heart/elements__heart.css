@@ -7,6 +7,9 @@
     background-repeat: no-repeat;
     background-position: center;
     border: none;
+    position: absolute;
+    top: 314ps;
+    right: 20px;
 }
 
 .elements__heart:hover {

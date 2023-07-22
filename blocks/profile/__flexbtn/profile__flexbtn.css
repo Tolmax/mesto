@@ -3,5 +3,6 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    flex-basis: 394px;
+    /*flex-basis: 394px;*/
+    width: 394px;
 }
