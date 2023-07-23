@@ -5,7 +5,19 @@
     font-weight: 400;
     line-height: 114%;
     letter-spacing: 0em;
+    text-align: start;
     
     color: rgba(255, 255, 255, 1);
     margin: 0;
 }
+@media screen and (max-width: 665px) {
+    .profile__name {
+        font-family: Inter;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 114%;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+

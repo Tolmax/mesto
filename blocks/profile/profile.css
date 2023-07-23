@@ -1,8 +1,30 @@
-.profile {
+/*.profile {
     max-width: 880px;
     margin: 40px auto 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    gap: 30px;
+    calc(41.30%)
+}*/
+.profile {
+    display: grid;
+    grid-template-columns: 120px 336px minmax(min-content, 364px);
+    /*grid-template-rows: auto;*/
+    grid-auto-flow: column;
+    gap: 30px;
+    max-width: 880px;
+    margin: 40px auto 40px;
+}
+
+@media screen and (max-width: 665px) {
+    .profile {
+        grid-template-columns: 336px;
+        grid-template-rows: 120px 73px 50px;
+        row-gap: 26px;
+        align-items: center;
+        justify-content: center;
+        margin: 42px auto 36px;
+    }
 }

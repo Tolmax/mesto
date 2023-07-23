@@ -3,6 +3,13 @@
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    /*flex-basis: 394px;*/
-    width: 394px;
+    max-width: 364px;
+}
+
+@media screen and (max-width: 665px) {
+    .profile__flexbtn {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 282px;
+    }
 }

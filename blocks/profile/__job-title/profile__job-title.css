@@ -8,3 +8,12 @@
     color: rgba(255, 255, 255, 1);
     margin: 0;
 }
+
+@media screen and (max-width: 665px) {
+    .profile__job-title {
+        font-size: 14px;
+        text-align: center;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+}

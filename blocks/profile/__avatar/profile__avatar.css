@@ -8,3 +8,8 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+@media screen and (max-width: 665px) {
+    .profile__avatar {
+        margin: 0 auto;
+        }
+}
