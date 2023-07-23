@@ -2,7 +2,7 @@
     font-family: Inter;
     font-style: normal;
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 114%;
     letter-spacing: 0em;
     text-align: start;
@@ -13,8 +13,8 @@
 @media screen and (max-width: 665px) {
     .profile__name {
         font-family: Inter;
-        font-size: 27px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: 500;
         line-height: 114%;
         letter-spacing: 0em;
         text-align: center;

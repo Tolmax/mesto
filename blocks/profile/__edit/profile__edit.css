@@ -1,6 +1,6 @@
 .profile__edit {
     width: 336px;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 18px;
@@ -9,6 +9,6 @@
     .profile__edit {
         justify-content: center;
         width: 282px;
-        gap: 10px;
+        gap: 8px;
     }
 }

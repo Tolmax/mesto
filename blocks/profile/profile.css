@@ -22,7 +22,7 @@
     .profile {
         grid-template-columns: 336px;
         grid-template-rows: 120px 73px 50px;
-        row-gap: 26px;
+        row-gap: 22px;
         align-items: center;
         justify-content: center;
         margin: 42px auto 36px;
