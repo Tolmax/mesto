@@ -1,4 +1,6 @@
-/* * body, 
+/** body, 
+header,
+hr,
 section,
 footer,
 div,
@@ -15,7 +17,7 @@ img {
 .page {
     font-family: 'Inter', 'Arial', sans-serif;
     max-width: 1280px;
-    margin: 0;
+    margin: 0 auto;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;

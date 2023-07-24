@@ -37,16 +37,6 @@
       </div>
     </section>
 
-    <div class="popup">
-      <div class="popup__container">
-        <button type="button" class="popup__close"></button>
-        <div class="popup__content">
-          <h1 class="popup__title">Жак-Ив Кусто</h1>
-          <p class="popup__text">Исследователь океана</p>
-        </div>
-      </div>
-    </div>
-
     <section class="elements">
       <div class="elements__card">
         <img src="./images/Mask Group one.png" alt="" class="elements__image">
@@ -96,8 +86,30 @@
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="footer">
     <p class="footer__mesto">&reg; 2020 Mesto Rssia</p>
   </footer>
+
+  <div class="popup">
+
+    <div class="popup__container">
+      <button type="button" class="popup__close"><img src="./images/Close Icon.png"></button>
+      <div class="popup__content">
+        <h1 class="popup__title">Редактировать профиль</h1>
+        <!--<fieldset class="popup__imput">-->
+        <input type="text" class="popup__text" value="Жак-Ив Кусто">
+        <input type="text" class="popup__text" value="Исследователь океана">
+        <!--</fieldset>-->
+        <button type="button" class="popup__submit">
+          <p>Сохранить</p>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/index.js" defer=""></script>
+</body>
+
+popup__text_el_name popup__text_el_job
