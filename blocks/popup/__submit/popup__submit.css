@@ -15,7 +15,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
+.popup__submit:hover {
+    opacity: 0.6;
+}
+    
 
 @media screen and (max-width: 580px) {
     .popup__submit {

@@ -8,7 +8,6 @@
   <meta name='keywords' content='html, css, js'>
   <meta name="author" content="Анатолий">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="style.css">
   <title>Место</title>
 </head>
 
@@ -24,22 +23,23 @@
     <section class="profile">
       <img src="./images/image.jpg" class="profile__avatar" alt="фото Жак-Ив Кусто">
 
-      <div class="profile__text">
-        <div class="profile__edit">
-          <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <button type="button" class="profile__editbtn menu__open-popup"><img src="./images/VectorEdit.png"></button>
+      <div class="profile__form">
+        <div class="menu">
+          <h2 class="profile__name">Жак-Ив Кусто</h2>
+          <button type="button" class="menu__open-popup"><img src="./images/VectorEdit.png"
+              alt="Кнопка редактировать"></button>
         </div>
-        <p class="profile__job-title">Исследователь океана</p>
+        <h3 class="profile__job-title">Исследователь океана</h3>
       </div>
 
       <div class="profile__flexbtn">
-        <button class="profile__btn"><img src="./images/VectorCrost.png"></button>
+        <button type="submit" class="profile__btn"><img src="./images/VectorCrost.png" alt="Кнопка сохранить"></button>
       </div>
     </section>
 
     <section class="elements">
       <div class="elements__card">
-        <img src="./images/Mask Group one.png" alt="" class="elements__image">
+        <img src="./images/Karachaevo.png" alt="" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Карачаево-Черкессия</h3>
           <button class="elements__heart"></button>
@@ -47,7 +47,7 @@
       </div>
 
       <div class="elements__card">
-        <img src="./images/Mask Group two.png" alt="" class="elements__image">
+        <img src="./images/Dombai.png" alt="Картинка" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Гора Эльбрус</h3>
           <button class="elements__heart"></button>
@@ -55,7 +55,7 @@
       </div>
 
       <div class="elements__card">
-        <img src="./images/Mask Group three.png" alt="" class="elements__image">
+        <img src="./images/Elbrus.png" alt="Картинка" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Домбай</h3>
           <button class="elements__heart"></button>
@@ -63,7 +63,7 @@
       </div>
 
       <div class="elements__card">
-        <img src="./images/Mask Group one.png" alt="" class="elements__image">
+        <img src="./images/Karachaevo.png" alt="Картинка" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Карачаево-Черкессия</h3>
           <button class="elements__heart"></button>
@@ -71,7 +71,7 @@
       </div>
 
       <div class="elements__card">
-        <img src="./images/Mask Group two.png" alt="" class="elements__image">
+        <img src="./images/Elbrus.png" alt="Картинка" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Гора Эльбрус</h3>
           <button class="elements__heart"></button>
@@ -79,7 +79,7 @@
       </div>
 
       <div class="elements__card">
-        <img src="./images/Mask Group three.png" alt="" class="elements__image">
+        <img src="./images/Dombai.png" alt="Картинка" class="elements__image">
         <div class="elements__title">
           <h3 class="elements__name">Домбай</h3>
           <button class="elements__heart"></button>
@@ -96,20 +96,21 @@
   <div class="popup">
 
     <div class="popup__container">
-      <button type="button" class="popup__close"><img src="./images/Close Icon.png"></button>
-      <div class="popup__content">
+      <button type="button" class="popup__close"><img src="./images/CloseIcon.png" alt="Кнопка закрыть"></button>
+      <!--<div class="popup__content">-->
+        <form class="popup__input">
         <h1 class="popup__title">Редактировать профиль</h1>
-        <!--<fieldset class="popup__imput">-->
-        <input type="text" class="popup__text" value="Жак-Ив Кусто">
-        <input type="text" class="popup__text" value="Исследователь океана">
-        <!--</fieldset>-->
-        <button type="button" class="popup__submit">
-          <p>Сохранить</p>
-        </button>
-      </div>
+      
+          <input type="text" class="popup__name" name="Name" placeholder="Имя" value="">
+          <input type="text" class="popup__job" name="About" placeholder="О себе" value="">
+        
+        <button type="submit" class="popup__submit">Сохранить</button>
+      </form>
+      <!--</div>-->
     </div>
   </div>
   <script src="./scripts/index.js" defer=""></script>
 </body>
 
-popup__text_el_name popup__text_el_job
+value="Жак-Ив Кусто"
+value="Исследователь океана"
