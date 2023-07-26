@@ -20,4 +20,4 @@ function openPopup() {
     popupElement.classList.add('popup_is-opened');
 }   
 ```
-##Ссылка на проект https://tolmax.github.io/russian-travel/ ##
+##Ссылка на проект https://tolmax.github.io/mesto/ ##
