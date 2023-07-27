@@ -1,28 +1,19 @@
 .header {
     max-width: 880px;
-    /*height: 74px;              /*?????*/
     margin: 45px auto 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 41px;
+    border-bottom: 1px solid rgba(84, 84, 84, 1);
 }
 
 @media screen and (max-width: 665px) {
     .header {
         max-width: 580px;
-        /*min-width: 282px;*/
         margin: 28px auto 48px;
-        gap: 35px;
     }
 }
 
 @media screen and (max-width: 580px) {
     .header {
         max-width: 320px;
-        /*min-width: 282px;*/
         margin: 28px auto 42px;
-        gap: 31.6px;
     }
 }

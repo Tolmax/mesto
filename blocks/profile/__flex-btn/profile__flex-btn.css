@@ -1,4 +1,4 @@
-.profile__flexbtn {
+.profile__flex-btn {
     margin: 0;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 665px) {
-    .profile__flexbtn {
+    .profile__flex-btn {
         margin: 0 auto;
         padding: 0;
         max-width: 282px;

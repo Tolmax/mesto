@@ -1,5 +1,5 @@
 .profile__job-title {
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
@@ -7,6 +7,12 @@
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
     margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 336px;
 }
 
 @media screen and (max-width: 665px) {
@@ -15,5 +21,6 @@
         text-align: center;
         justify-content: space-around;
         margin: 0 auto;
+        max-width: 282px;
     }
 }

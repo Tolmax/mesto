@@ -1,5 +1,5 @@
 .elements__name {
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-size: 22px;
     font-weight: 900;
@@ -11,4 +11,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    max-width: 246px;
+    width: 100%;
 }

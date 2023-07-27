@@ -2,21 +2,22 @@
     width: 22px;
     height: 19px;
     margin: 0 auto;
-    background-image: url(../../../images/heart.png);
+    background-image: url(../../../images/heartSCG.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border: none;
-    
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .elements__heart:hover {
     opacity: 0.5;
 } 
 .elements__heart:active {
-  background-image: url(../../../images/heart-black.png);
+  background-image: url(../../../images/heart-blackSVG.svg);
 }
 
 .elements__heart:focus:focus {
-  background-image: url(../../../images/heart-black.png);
+  background-image: url(../../../images/heart-blackSVG.svg);
 }

@@ -24,4 +24,5 @@ img {
     -moz-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /*flex: 1;*/
   }
