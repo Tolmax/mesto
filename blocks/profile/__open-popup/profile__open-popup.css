@@ -3,11 +3,16 @@
         height: 24px;
         align-self: center;
         border: 1px solid rgba(255, 255, 255, 1);
-        /*background-color: rgba(0, 0, 0, 1);*/
-        background-color: transparent;
         margin: 0;
         padding: 0;
+        background-image: url(../../../images/PensilSVG.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
         cursor: pointer;
+        overflow: hidden;
+        background-size: 10px;
     }
     
     .profile__open-popup:hover {
@@ -17,5 +22,6 @@
         .profile__open-popup {
             width: 18px;
             height: 18px;
+            background-size: 7.5px;
         }
     }
