@@ -1,19 +1,20 @@
-.menu__open-popup {
+.profile__open-popup {
         width: 24px;
         height: 24px;
         align-self: center;
         border: 1px solid rgba(255, 255, 255, 1);
-        background-color: rgba(0, 0, 0, 1);
+        /*background-color: rgba(0, 0, 0, 1);*/
+        background-color: transparent;
         margin: 0;
         padding: 0;
         cursor: pointer;
     }
     
-    .menu__open-popup:hover {
+    .profile__open-popup:hover {
         opacity: 0.6;
     }
     @media screen and (max-width: 665px) {
-        .menu__open-popup {
+        .profile__open-popup {
             width: 18px;
             height: 18px;
         }

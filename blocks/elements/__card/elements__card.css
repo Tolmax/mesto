@@ -1,7 +1,10 @@
 .elements__card {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     width: 282px;
-    height: 361px;
+    /*height: 361px;*/
     margin: 0;
     border-radius: 10px;
     background-size: cover;
