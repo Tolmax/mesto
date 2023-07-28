@@ -1,7 +1,6 @@
 .profile__form {
     max-width: 336px;
-    /*height: 73px;*/
-    margin: 0 auto;
+    margin: 0;
     align-self: center;
     display: flex;
     flex-direction: column;
