@@ -8,7 +8,7 @@
 @media screen and (max-width: 665px) {
     .profile__menu {
         justify-content: center;
-        max-width: 282px;
+        max-width: 189px;
         margin: 0 38px 0 65px;
         gap: 10px;
     }
