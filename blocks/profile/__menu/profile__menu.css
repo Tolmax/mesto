@@ -1,6 +1,6 @@
 .profile__menu {
     max-width: 336px;
-    margin: 0 auto;
+    margin: 0 38px 0 65px;
     display: flex;
     flex-direction: row;
     gap: 18px;
@@ -9,6 +9,6 @@
     .profile__menu {
         justify-content: center;
         max-width: 282px;
-        gap: 8px;
+        gap: 10px;
     }
 }
