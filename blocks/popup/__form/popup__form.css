@@ -1,5 +1,5 @@
 .popup__form {
-    mask-border: 430px;
+    max-width: 430px;
     margin: 0 auto;
     padding: 0;
     border: 0;
