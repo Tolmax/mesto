@@ -2,10 +2,6 @@
     margin: 0;
     width: 120px;
     height: 120px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     border-radius: 50%;
 }
 @media screen and (max-width: 665px) {
