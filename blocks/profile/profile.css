@@ -2,7 +2,7 @@
     max-width: 880px;
     margin: 40px auto 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
