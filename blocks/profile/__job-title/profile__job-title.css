@@ -7,8 +7,6 @@
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
     margin: 0;
-    justify-content: center;
-    align-items: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -19,7 +17,6 @@
     .profile__job-title {
         font-size: 14px;
         text-align: center;
-        justify-content: space-around;
         margin: 0 auto;
         max-width: 282px;
     }

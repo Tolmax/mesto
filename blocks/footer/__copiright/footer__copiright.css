@@ -1,0 +1,15 @@
+.footer__copiright {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 122%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+    margin: 0;
+}
+@media screen and (max-width: 580px) {
+    .footer__copiright {
+        font-size: 14px;
+    }
+}

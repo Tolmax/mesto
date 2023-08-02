@@ -12,7 +12,5 @@
 @media screen and (max-width: 665px) {
     .profile__form {
         max-width: 282px;
-        justify-content: center;
-        gap: 10px;
-    }
+        }
 }

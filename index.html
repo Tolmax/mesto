@@ -22,8 +22,7 @@
     <section class="profile" aria-label="Информация о себе">
       <div class="profile__flex">
         <img src="./images/image.jpg" class="profile__avatar" alt="фото Жак-Ив Кусто">
-    
-        <div class="profile__form">
+          <div class="profile__form">
           <div class="profile__menu">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
             <button type="button" title="Popup open button" class="profile__open-popup"></button>
@@ -31,9 +30,7 @@
           <p class="profile__job-title">Исследователь океана</p>
         </div>
       </div>
-          
       <button type="button" title="Share current to TG" class="profile__btn"></button>
-    
     </section>
 
     <section class="elements" aria-label="Красивые места России">
@@ -89,7 +86,7 @@
   </main>
 
   <footer class="footer">
-    <img src="./images/FooterSVG.svg" alt="Авторские права">
+    <p class="footer__copiright">&reg;	2023 Mesto Russia</p>
   </footer>
 
   <div class="popup">
@@ -99,8 +96,8 @@
 
       <form class="popup__form" name="form1">
         <h2 class="popup__title">Редактировать профиль</h2>
-        <input type="text" class="popup__input popup__input_text-name" name="Name" placeholder="Имя" value="">
-        <input type="text" class="popup__input popup__input_text-about" name="About" placeholder="О себе" value="">
+        <input type="text" class="popup__input popup__input_type_name" name="Name" placeholder="Имя" value="">
+        <input type="text" class="popup__input popup__input_type_about" name="About" placeholder="О себе" value="">
         <button type="submit" class="popup__submit">Сохранить</button>
       </form>
 

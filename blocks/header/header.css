@@ -5,12 +5,12 @@
     
 }
 
-@media screen and (max-width: 665px) {
+/*@media screen and (max-width: 665px) {
     .header {
         max-width: 580px;
         margin: 28px auto 48px;
     }
-}
+}*/
 
 @media screen and (max-width: 580px) {
     .header {
