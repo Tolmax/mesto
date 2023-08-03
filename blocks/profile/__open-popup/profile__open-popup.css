@@ -1,6 +1,6 @@
 .profile__open-popup {
-        width: 24px;
-        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
         align-self: center;
         border: 1px solid rgba(255, 255, 255, 1);
         margin: 0;

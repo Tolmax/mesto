@@ -11,12 +11,16 @@
     letter-spacing: 0em;
     text-align: center;
     background-color: rgba(0, 0, 0, 1);
-    /*background-color: transparent;*/
+    border-radius: 2px;
     color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 .popup__submit:hover {
     opacity: 0.8;
@@ -27,7 +31,7 @@
     .popup__submit {
         width: 238px;
         height: 46px;
-        margin: 18px auto 25px;
-        font-size: 18px;
+        margin: 15px auto 25px;
+        font-size: 14px;
     }
 }
